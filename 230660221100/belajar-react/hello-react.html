@@ -19,28 +19,10 @@
   <body>
     <div id="root"></div>
 
-    <!-- Load React and ReactDOM from CDN (latest React 18 version) -->
-<!-- React.development.js: Core React library for building components and managing state -->
-<script
-  crossorigin
-  src="https://unpkg.com/react@18/umd/react.development.js"
-></script>
-
-<!-- ReactDOM.development.js: Handles rendering React components to the DOM -->
-<script
-  crossorigin
-  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-></script>
-
-<!-- Babel: Transpiles modern JavaScript and JSX into browser-compatible code -->
-<!-- Required for JSX syntax and ES6+ features support across browsers -->
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
     <script type="text/babel">
       // Menggunakan metode baru React 18
       const root = ReactDOM.createRoot(document.getElementById("root"));
       root.render(<h1>Hello, World!</h1>);
     </script>
-    
   </body>
 </html>
